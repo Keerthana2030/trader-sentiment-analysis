@@ -33,8 +33,7 @@ Analyze trader-level performance in the context of overall market sentiment to i
 
 ## 📓 Notebook Link
 
-▶️ https://colab.research.google.com/notebooks/intro.ipynb
-
+▶️ https://colab.research.google.com/drive/1e_aUmMeKpxRinSpqwaaiEbKWgW564jn_?usp=sharing
 
 ---
 
