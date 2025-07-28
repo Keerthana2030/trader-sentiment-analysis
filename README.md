@@ -1,39 +1,61 @@
-# trader-sentiment-analysis
-Analyzing trader behavior in correlation with market sentiment using Bitcoin Fear &amp; Greed Index and Hyperliquid data.
-# 📊 Trader Sentiment Analysis
+# 📊 Trader Behavior vs Market Sentiment Analysis
 
-This project explores the relationship between Bitcoin market sentiment (Fear/Greed Index) and real-time trader performance using Hyperliquid trading data.
-
-## 🧠 Objective
-
-To uncover insights that reveal how trader behavior shifts during phases of fear and greed in the crypto market, and how those shifts affect performance.
-
-## 📁 Dataset Sources
-
-- [Hyperliquid Historical Trader Data](https://drive.google.com/file/d/1IAfLZwu6rJzyWKgBToqwSmmVYU6VbjVs/view?usp=sharing)
-- [Bitcoin Fear & Greed Index](https://drive.google.com/file/d/1PgQC0tO8XN-wqkNyghWc_-mnrYv_nhSf/view?usp=sharing)
-
-## 🔍 Key Analyses
-
-- PnL distribution during Fear vs. Greed phases
-- Buy/Sell behavior shifts across sentiment
-- Leverage usage patterns
-- Data cleaning and merging across sentiment timelines
-
-## 📓 Notebook
-
-👉 [Trader_Behavior_vs_Market_Sentiment_Analysis.ipynb](./Trader_Behavior_vs_Market_Sentiment_Analysis.ipynb)
-
-## 🚀 Tools Used
-
-- Python (Pandas, Matplotlib, Seaborn)
-- Google Colab
-- Data cleaning, visualization, and EDA
+This project explores how **Bitcoin market sentiment** (Fear & Greed Index) influences **trader behavior and performance**, using real historical trade data from the **Hyperliquid** platform.
 
 ---
 
-### 🤝 Let's Connect
+## 🧠 Objective
 
-- **Name:** Keerthana V  
-- **Email:** keerthanavofficial@gmail.com  
-- **LinkedIn:** *[optional]*  
+Analyze trader-level performance in the context of overall market sentiment to identify:
+- How sentiment impacts profitability (PnL)
+- Behavioral patterns (Buy/Sell bias) during Fear vs. Greed
+- Risk-taking behavior (leverage, trade size, etc.)
+
+---
+
+## 📁 Datasets Used
+
+1. **[Hyperliquid Trader Data](https://drive.google.com/file/d/1IAfLZwu6rJzyWKgBToqwSmmVYU6VbjVs/view?usp=sharing)**
+   - Columns: account, symbol, execution price, side, time, start position, closed PnL, leverage, etc.
+
+2. **[Bitcoin Fear & Greed Index](https://drive.google.com/file/d/1PgQC0tO8XN-wqkNyghWc_-mnrYv_nhSf/view?usp=sharing)**
+   - Columns: Date, Classification (Fear or Greed)
+
+---
+
+## 📈 Key Insights
+
+- **PnL Distribution:** Greed phases saw higher volatility in profits/losses, while Fear phases were more conservative.
+- **Trade Direction:** Greed phases showed a higher ratio of Buy trades; Fear had more Sell-side dominance.
+- **Leverage Patterns:** Traders tended to use higher leverage during Greed phases, indicating more aggressive risk-taking.
+
+---
+
+## 📓 Notebook Link
+
+▶️ https://colab.research.google.com/notebooks/intro.ipynb
+
+
+---
+
+## 🧰 Tools & Libraries
+
+- **Python** (Pandas, Matplotlib, Seaborn)
+- **Google Colab**
+- **Data cleaning, sentiment merging, visualization, and exploratory data analysis (EDA)**
+
+---
+
+## 👩‍💻 Author
+
+**Keerthana V**  
+BTech – AI & ML | Freelance Tech Consultant  
+📧 keerthanavofficial@gmail.com  
+📱 +91-XXXXXXXXXX
+
+---
+
+## 💼 Submission For
+
+**Role:** Junior Data Scientist – Trader Behavior Insights  
+**Company:** Bajarang & PrimeTrade.ai  
